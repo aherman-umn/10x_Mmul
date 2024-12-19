@@ -1,4 +1,4 @@
-# Tips for making cellranger references for Macaca mulatta
+# Tips for using cellranger with Macaca mulatta samples
 
 ## Intro
 If interested in doing Rhesus TCR sequencing with 10x single-cell technology, it's possible to use the human enrichment primers. This is convenient but means we have to do some extra steps in preparing the reference for gene expression counting and TCR assembly, with either `cellranger multi` or a combination of `cellranger count` and `cellranger vdj`. The steps are as follows:
